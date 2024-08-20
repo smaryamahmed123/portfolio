@@ -3,7 +3,7 @@ import { Container, Box, Typography, Button, Grid, Avatar, Card, CardContent, Ca
 import { Link } from 'react-router-dom';
 import avatarImage from '../assets/Img (2).pnj.jpeg';
 import projectImage1 from '../assets/blood5.jpg';
-import projectImage2 from '../assets/OIP.jpeg';
+import projectImage2 from '../assets/img3.jpg';
 import cv from '../assets/Syeda Maryam-Ahmed-CV.pdf'
 const Home = () => (
   <Container>
@@ -93,7 +93,7 @@ const Home = () => (
               <Typography variant="body2" color="black">
                 An e-commerce website built using React. It includes features like product listing, cart management, and checkout.
               </Typography>
-              <Button size="small" color="primary" href="https://react-hecathon-saturday.vercel.app/">
+              <Button size="small" color="primary" href="https://mern-stack-e-commerce-app.netlify.app/">
                 View Project
               </Button>
             </CardContent>
