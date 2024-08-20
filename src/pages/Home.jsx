@@ -31,7 +31,7 @@ const Home = () => (
       <Typography variant="h4" component="h2" gutterBottom>
         Resume
       </Typography>
-      <Button variant="contained" color="secondary" href='../assets/Syeda Maryam-Ahmed-CV.pdf' sx={{ my: 2 }}>
+      <Button variant="contained" color="secondary" href='../../public/Syeda Maryam-Ahmed-CV.pdf' sx={{ my: 2 }}>
         Download My Resume
       </Button>
     </Box>
