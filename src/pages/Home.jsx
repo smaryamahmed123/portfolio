@@ -28,6 +28,15 @@ const Home = () => (
       </Button>
     </Box>
 
+    <Box sx={{ my: 4, textAlign: 'center' }}>
+      <Typography variant="h4" component="h2" gutterBottom>
+        Resume
+      </Typography>
+      <Button variant="contained" color="secondary" href="../assets/Syeda Maryam Ahmed CV.pdf" sx={{ my: 2 }}>
+        Download My Resume
+      </Button>
+    </Box>
+
     <Box sx={{ my: 4 }}>
       <Typography variant="h4" component="h2" gutterBottom>
         Skills
@@ -92,8 +101,6 @@ const Home = () => (
         </Grid>
       </Grid>
     </Box>
-
-    
   </Container>
 );
 
