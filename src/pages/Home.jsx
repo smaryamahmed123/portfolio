@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import avatarImage from '../assets/Img (2).pnj.jpeg';
 import projectImage1 from '../assets/blood5.jpg';
 import projectImage2 from '../assets/img3.jpg';
-import cv from '../assets/Syeda Maryam-Ahmed-CV.pdf'
 const Home = () => (
   <Container>
     <Box sx={{ textAlign: 'center', my: 4 }}>
