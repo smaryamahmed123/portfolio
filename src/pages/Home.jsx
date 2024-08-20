@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import avatarImage from '../assets/Img (2).pnj.jpeg';
 import projectImage1 from '../assets/blood5.jpg';
 import projectImage2 from '../assets/OIP.jpeg';
-
+import cv from '../assets/Syeda Maryam-Ahmed-CV.pdf'
 const Home = () => (
   <Container>
     <Box sx={{ textAlign: 'center', my: 4 }}>
@@ -32,7 +32,7 @@ const Home = () => (
       <Typography variant="h4" component="h2" gutterBottom>
         Resume
       </Typography>
-      <Button variant="contained" color="secondary" href="../assets/Syeda Maryam Ahmed CV.pdf" sx={{ my: 2 }}>
+      <Button variant="contained" color="secondary" href={cv} sx={{ my: 2 }}>
         Download My Resume
       </Button>
     </Box>
